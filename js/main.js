@@ -43,14 +43,14 @@ $( document ).ready(function() {
                     pullObject.css("background-color","#000");
                 }
                 else {
-                    pullObject.css("background-color","darkorange");
+                    pullObject.css("background-color","#009999");
                 }
             }
             else if(screenPosition[1] < $(window).height()/2){
-                pullObject.css("background-color","greenyellow");
+                pullObject.css("background-color","#FF3300");
             }
             else {
-                pullObject.css("background-color","darkblue");
+                pullObject.css("background-color","#FF9900");
             }
             }});
     $('.main').mouseup(function(){
